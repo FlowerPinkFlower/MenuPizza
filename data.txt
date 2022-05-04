@@ -1,0 +1,4 @@
+Tester la lecture du fichier txt apartir d'un echo file_get_contents("data.txt");
+Ca va afficher le texte dans le navigateur.
+Possibilité de prendre juste une lettre ou des lettres dans le fichier texte en faisant
+echo file_get_contents ("data.txt", NUL, NUL, 5, 7). Cela va prendre la lettre à la 5eme place et s'arrêter à la 7eme lettre.
